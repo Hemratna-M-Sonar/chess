@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-const WS_URL = "ws://localhost:8080"
+const WS_URL = "https://chess-sable-five.vercel.app/"
 export const useSocket = () => {
     const [socket, setSocket] = useState(null);
 
